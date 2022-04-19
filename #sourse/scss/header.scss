@@ -1,0 +1,29 @@
+.header {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+position: absolute;
+z-index: 2;
+width: 100%;
+top: 0;
+left: 0;
+   &__logo {
+      padding: 17px 0px 17px 20px;
+   }
+
+   &__social {
+      background-color: #6257FE;
+      padding: 20px;
+      display: flex;
+    
+   }
+}
+.social-header {
+
+   &__item {
+
+      &:not(:last-child) {
+         margin: 0px 25px 0px 0px;
+      }
+   }
+}
